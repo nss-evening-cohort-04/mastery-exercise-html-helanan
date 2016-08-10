@@ -1,143 +1,6 @@
-/*********************
-GENERAL
-*********************/
-
-header {
-  width: 100%;
-  height: 50%;
-  background color: #904098;
-  text-align: center;
-  display: block;
-}
-
-#logo {
-  text-align: center;
-  margin: 0;
-}
-
-#mlogo {
-position: static;
-left: 50%;
-right: 50%;
-text-align: center;
-font-size: 30px;
-}
-
-a {
-  text-decoration: none;
-}
-
-/******BODY******/
-
-body {
-  font-family:'Bangers', cursive;
-}
-
-.assets {
-width: 75%;
-text-align: left;
-text-orientation: 
-}
-
-img {
- width: 100%;
- height: 30%;
- display: block;
-margin: 7px auto;
- padding: 5px 5px;
- width: 100%;
- text-align: center;
-}
-
-article {
-display: block;
-    overflow: auto;
-width: 100%;
-}
-
-.description {
-margin: 7px auto;
- padding: 5px 5px;
- width: 100%;
- text-align: center;
- clear: left;
-}
-
-#specifications{
-background-color: lightgrey;
-margin: 7px auto;
- padding: 5px 5px;
- width: 100%;
- text-align: center;
- border-radius: 20px; 
- clear left;
-}
-
-#availability {
-background-color: lightgrey;
-margin: 7px auto;
- padding: 5px 5px;
- width: 100%;
- text-align: center;
- border-radius: 20px; 
- clear: left;
-}
-
-#size {
-background-color: lightgrey;
-margin: 7px auto;
- padding: 5px 5px;
- width: 100%;
- text-align: center;
- border-radius: 20px; 
- clear: left;
-}
 
 /*********************
-HEADING
-*********************/
-
-header {
-  float: left;
-  margin: 0 0 30px 0;
-  padding: 5px 0 0 0;
-  width: 100%;
-}
-
-#header2 {
- float: left;
- background: #B8D87E;
- margin: 7px auto;
- padding: 5px 5px;
- width: 40%;
- text-align: center;
- border-radius: 20px; 
-}
-
-h1 {
-  font-family: 'Nosifer', cursive;
-  font-size: 1.75em;
-  font-weight: normal;
-  line-height: 0.8em
-    float: center;
-margin: 7px auto;
- padding: 5px 5px;
- width: 100%;
- text-align: center;
-}
-
-h2 {
-  font-size: 0.75em;
-  margin: -5px 0 0;
-  font-weight: normal;
-}
-
-li {
-    list-style: none;
-    display: inline-block;
-}
-/*********************
-Navigation
+NAV
 *********************/
 
 nav {
@@ -161,45 +24,124 @@ nav a {
   padding: 15px 10px;
 }  
 
-/******gallery*****/
-#overall {
-    display: block;
-    background-color: antiquewhite;
+
+/*********************
+HEADERS
+*********************/
+header {
+  width: 100%;
+  height: 50%;
+  background color: #904098;
+  text-align: center;
+  display: block;
 }
 
+h3 {
+  text-align: center;
+}
+
+.logo {
+  text-align: center;
+  margin: 0;
+}
+
+.mlogo {
+position: static;
+left: 50%;
+right: 50%;
+text-align: center;
+font-size: 30px;
+}
+
+
+.header2 {
+ background-color: black;
+ border: 1px dotted lightgrey;
+ margin: 7px auto;
+ padding: 5px 5px;
+ text-align: center;
+ border-radius: 20px; 
+ font: .75em 'Nosifer', cursive;
+ font-size: .75em;
+ width: 75%;
+}
+
+
+
+/*********************
+BODY
+*********************/
+
+body {
+  font-family:'Bangers', cursive;
+}
+
+.overall {
+    display: block;
+    background-color: antiquewhite;    
+}
+
+/*********************
+CARD STYLING
+*********************/
 article {
     width: 30%  
 }
 
 .startcard {
-    border: 3px;
-    border-color: aqua;
-    border-style: solid;
+    border: 1px solid lightblue;
     display: inline-block;
 }
 
-.gallery {
-  margin: 5%;
-  padding: 5%;
-  list-style-image: inherit;
-
-}
-  
-.gallery li {
-  float: left;
-  width: 45%;
-  margin: 2.5%;
-  color: #bdc3c7;
-  display: inline;
+/*images*/
+img {
+ border-radius: 30px;
+ width: 70%;
+ height: 30%;
+ margin: 7px auto;
+ padding: 5px 5px;
+ width: 100%;
 }
 
-.gallery li a p {
-  margin: 0;
-  padding: 5%;
-  font-size: 0.75em;
-  color: #bdc3c7;
-  position: absolute;
+/*descriptions*/
+
+.description {
+ margin: 7px auto;
+ width: 90%;
+ text-align: justify;
 }
+
+.specifications {
+ margin: 7px auto;
+ width: 90%;
+ text-align: center;
+ border-radius: 10px; 
+ font: bold;
+ color: black;
+}
+
+.availability {
+ margin: 7px auto;
+ padding: 5px 5px;
+ width: 100%;
+ text-align: left;
+ border-radius: 5px; 
+ color: yellow;
+ background-color: darkgrey; 
+}
+
+.size {
+background-color: lightgrey;
+margin: 7px auto;
+ padding: 5px 5px;
+ width: 90%;
+ text-align: center;
+ border-radius: 20px; 
+ clear: left;
+}
+
+
+
 
 
 /*********************
@@ -207,7 +149,7 @@ FOOTER
 *********************/
 
 footer {
-  font-size: 0.75em;
+  font-size: 1em;
   text-align: center;
   clear: both;
   padding-top: 50px;
@@ -218,12 +160,6 @@ footer {
 COLORS
 *********************/
   
-/* site body */    
-body {
- background-color: #fff;
- color: #999;
-}
-  
 header {
  background: #22275B;
  border-color: #AE5DA4;
@@ -233,17 +169,15 @@ nav {
  background: #AE5DA4;
 }
   
-/* logo text */
 h1, h2 {
  color: #fff;
 }
-  
-/* links */
+
 a {
  color: #22275B;
 }
  
-/* nav link */  
+/* nav links */  
 nav a, nav a:visited {
  color: #fff;  
 }

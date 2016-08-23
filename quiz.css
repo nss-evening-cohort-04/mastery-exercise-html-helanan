@@ -1,0 +1,185 @@
+
+/*********************
+NAV
+*********************/
+
+nav {
+  text-align: center;
+  padding: 0 0;
+  margin: 5px 0 0;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0 10px;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+}
+  
+nav a {
+  font-weight: 800;
+  padding: 15px 10px;
+}  
+
+
+/*********************
+HEADERS
+*********************/
+
+
+h2{
+  text-align: center;
+  color: black;
+}
+
+h3 {
+  text-align: center;
+}
+
+.mlogo {
+font-size: 30px;
+}
+
+.header2 {
+ background-color: black;
+ border: 1px dotted lightgrey;
+ margin: 7px auto;
+ padding: 5px 5px;
+ text-align: center;
+ border-radius: 20px; 
+ font: .75em 'Nosifer', cursive;
+ width: 75%;
+}
+
+
+
+/*********************
+BODY
+*********************/
+
+body {
+  font-family:'Bangers', cursive;
+}
+
+.overall {
+    background-color: antiquewhite;    
+}
+
+/*********************
+CARD STYLING
+*********************/
+article {
+    width: 30%;
+}
+
+.startcard {
+    border: 1px solid lightblue;
+    display: inline-block;
+}
+
+/*images*/
+img {
+ border-radius: 30px;
+ height: 30%;
+ margin: 7px auto;
+ width: 100%;
+ object-position: center;
+}
+
+/*descriptions*/
+
+.description {
+ margin: 7px auto;
+ width: 90%;
+ text-align: center;
+ font-size: 1em;
+}
+
+p {
+text-align: justify;
+width: 90%;
+}
+
+.specifications {
+ margin: 3px auto;
+ width: 90%;
+ text-align: center;
+ border-radius: 10px; 
+ font-weight: bold;
+ color: black;
+}
+
+.availability {
+ margin: 7px auto;
+ padding: 5px 5px;
+ text-align: left;
+ border-radius: 5px; 
+ color: yellow;
+ background-color: darkgrey; 
+}
+
+.size {
+background-color: lightgrey;
+margin: 7px auto;
+padding: 5px 5px;
+width: 90%;
+text-align: center;
+border-radius: 20px; 
+font-weight: bold;
+}
+
+
+
+
+
+/*********************
+FOOTER
+*********************/
+
+footer {
+  text-align: left;
+  color: red;
+  margin: 5px 0px; 
+}
+
+
+.bottom {
+  font-size: 1em;
+  text-align: center;
+  padding-top: 50px;
+  color: #ccc;
+  }
+/*********************
+COLORS
+*********************/
+  
+header {
+ background: #22275B;
+ border-color: #AE5DA4;
+}
+  
+nav {
+ background: #AE5DA4;
+}
+  
+h1 {
+ color: white;
+}
+
+a {
+ color: #22275B;
+}
+ 
+/* nav links */  
+nav a, nav a:visited {
+ color: #fff;  
+}
+    
+/* selected nav link */
+nav a.selected, nav a:hover {
+ color: #22275B;
+    }
+
